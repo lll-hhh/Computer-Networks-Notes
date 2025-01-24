@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"e1ff9a5da4dd4d6f","type":"text","text":"网络层","x":-485,"y":-114,"width":250,"height":60},
+		{"id":"4619a057ae5e5493","type":"text","text":"IP地址编址","x":-158,"y":-182,"width":250,"height":60},
+		{"id":"6fb170526d6b7058","type":"text","text":"IP数据报","x":-158,"y":-85,"width":250,"height":60},
+		{"id":"63b2c440bc549f86","type":"text","text":"子网与子网掩码","x":203,"y":-174,"width":250,"height":60},
+		{"id":"910afc447b8f4d8c","type":"text","text":"IP地址的编码规则与分类划分","x":203,"y":-116,"width":283,"height":61},
+		{"id":"b2f941d24cce0d3e","type":"text","text":"构成超网CIDR","x":203,"y":-234,"width":250,"height":60},
+		{"id":"0e85ba8e7bd9f8ae","type":"text","text":"网络层重要协议：IP NAT ICMP ARP RARP","x":-158,"y":86,"width":440,"height":56},
+		{"id":"3896be058463ec1b","type":"text","text":"路由协议","x":-158,"y":6,"width":250,"height":60},
+		{"id":"53f07b18ec4651c1","type":"text","text":"网络层设备别：路由器","x":-158,"y":171,"width":250,"height":64}
+	],
+	"edges":[
+		{"id":"8564d5b759a75db7","fromNode":"e1ff9a5da4dd4d6f","fromSide":"right","toNode":"4619a057ae5e5493","toSide":"left"},
+		{"id":"039a693cb0251ee4","fromNode":"e1ff9a5da4dd4d6f","fromSide":"right","toNode":"6fb170526d6b7058","toSide":"left"},
+		{"id":"8b7a3d3ae8961ae4","fromNode":"e1ff9a5da4dd4d6f","fromSide":"right","toNode":"3896be058463ec1b","toSide":"left"},
+		{"id":"4c797d7110fbc487","fromNode":"e1ff9a5da4dd4d6f","fromSide":"right","toNode":"0e85ba8e7bd9f8ae","toSide":"left"},
+		{"id":"5ca7f1ce63f252f9","fromNode":"e1ff9a5da4dd4d6f","fromSide":"right","toNode":"53f07b18ec4651c1","toSide":"left"},
+		{"id":"9880f3e17a06bdfa","fromNode":"4619a057ae5e5493","fromSide":"right","toNode":"63b2c440bc549f86","toSide":"left"},
+		{"id":"b9a6b77003a8d136","fromNode":"4619a057ae5e5493","fromSide":"right","toNode":"b2f941d24cce0d3e","toSide":"left"},
+		{"id":"421ac55ddd856ea4","fromNode":"4619a057ae5e5493","fromSide":"right","toNode":"910afc447b8f4d8c","toSide":"left"}
+	]
+}
